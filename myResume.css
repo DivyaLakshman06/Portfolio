@@ -1,0 +1,174 @@
+/* Global Variables ------------------------------------------------*/
+html{
+    box-sizing:border-box;
+    margin: 0;
+
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "caveat",cursive;
+}
+/* Footer ----------------*/
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+footer a{
+    color:red;
+}
+footer a:hover{
+    color:green;
+}
+.logo{
+    margin-top:-30px;
+
+}
+
+
+/* Links ----------------------------*/
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: darkgreen;
+}
+#resname{
+    font-size: larger;
+}
+.socials{
+    list-style-type:none;
+    /* padding:20px; */
+    /* margin-top: -10px; */
+    /* margin-right:10px; */
+}
+.socials li{
+    display:inline-block;   
+    padding:8px;
+}
+.socials img{
+    width:23px;
+}
+
+#button1{
+    width:200px;
+    height: 50px;
+    background-color:lavender;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bolder;
+    position:fixed;
+    top: 5px;
+    left:5px;
+    /* margin-top: 10px; */
+}
+#button1:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 2px white solid;
+}
+#button3{
+    width:200px;
+    height: 50px;
+    background-color:lavender;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bolder;
+    position:fixed;
+    top: 65px;
+    left:5px;
+    /* margin-top: 10px; */
+}
+#button3:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 2px white solid;
+}
+
+/* HOME PAGE --------------------------------------------------------------------*/
+.homepage{
+    background-image: url(./placeholder-images/bg-home-office-studio.jpg);
+    /* background-color: aqua; */
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    /* opacity: 0.5; */
+}
+
+#pic{
+    height: 600px;
+    width:1300px;
+    margin-left: 100px;
+    background-color: black;
+}
+#intro{
+    background-color:white;
+    /* opacity: 0.5; */
+    max-width: 800px;
+    font-style: oblique;
+    margin: 0 auto;
+    word-wrap: break-word;
+    word-break: break-word;
+    padding: 50px;
+}
+#button2{
+    width:200px;
+    height: 50px;
+    background-color:lavender;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#button2:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 2px white solid;
+}
+#name{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Resume------------------------------------------------------------------------- */
+#resume header::before{
+    background-image: url(../office..jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 400px;
+    display:block;
+    content: "";
+}
+.resume-section{
+    margin-bottom: 50px;
+}
+.resume-section{
+    border-bottom: 2px dashed black;
+}
+
+#resume main{
+    max-width: 900px;
+    margin: 0  auto;
+}
+/*-----work experience-------*/
+.work-item{
+    display:flex;
+    grid-template-columns: 300px 1fr;
+
+}
