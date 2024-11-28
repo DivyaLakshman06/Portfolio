@@ -152,6 +152,7 @@ a:hover{
     /* background-repeat: no-repeat; */
     background-size: cover;
     height: 400px;
+    border:2px solid black;
     display:block;
     content: "";
 }
